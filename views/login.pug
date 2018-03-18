@@ -1,0 +1,12 @@
+doctype html
+head
+  title pug
+  script(defer='', src='https://use.fontawesome.com/releases/v5.0.8/js/all.js', integrity='sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ', crossorigin='anonymous')
+  style
+   include login.css
+.logbox
+  a(href='/auth/google')
+    button
+      i.fab.fa-google
+      | Sign in with Google
+
